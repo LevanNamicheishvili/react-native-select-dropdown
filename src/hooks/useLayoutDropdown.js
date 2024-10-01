@@ -51,7 +51,7 @@ export const useLayoutDropdown = (data, dropdownStyle, rowStyle, search) => {
       ...dropdownStyle,
       ...{
         position: 'absolute',
-        top: top,
+        top: 100,
         height: dropdownHEIGHT,
         width: dropdownWIDTH,
       },
